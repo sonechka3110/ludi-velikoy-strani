@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="22" viewBox="0 0 320 22" role="presentation">
+  <g fill="none" stroke="#c9a227" stroke-width="1.5">
+    <path d="M8 11h96M216 11h96"/>
+  </g>
+  <g fill="#c9a227">
+    <path d="M160 3l9 8-9 8-9-8z"/>
+    <path d="M30 9l3 2-3 2-3-2z"/>
+    <path d="M62 9l3 2-3 2-3-2z"/>
+    <path d="M94 9l3 2-3 2-3-2z"/>
+    <path d="M222 9l3 2-3 2-3-2z"/>
+    <path d="M254 9l3 2-3 2-3-2z"/>
+    <path d="M286 9l3 2-3 2-3-2z"/>
+    <circle cx="126" cy="11" r="1.6"/>
+    <circle cx="194" cy="11" r="1.6"/>
+  </g>
+  <g fill="#9e2b25">
+    <path d="M160 7l4 4-4 4-4-4z"/>
+  </g>
+</svg>

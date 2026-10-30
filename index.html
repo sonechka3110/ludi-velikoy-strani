@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Одностраничный информационный сайт о людях великой страны: традициях народов России, семейных ценностях, профессиях и человеческом подвиге.">
+  <meta name="author" content="Фетисова Софья Андреевна">
+  <title>Люди великой страны — традиции, семья, профессии, подвиг</title>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero">
+        <img class="logo__icon" src="img/ornament.svg" alt="" width="36" height="36">
+        <span class="logo__text">Люди великой страны</span>
+      </a>
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li><a href="#tradicii">Традиции</a></li>
+          <li><a href="#semya">Семья</a></li>
+          <li><a href="#professii">Профессии</a></li>
+          <li><a href="#podvig">Подвиг</a></li>
+          <li><a href="#viktorina">Викторина</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="hero__badge">Страница о народном единстве</p>
+        <h1 class="hero__title">Люди великой страны</h1>
+        <p class="hero__text">
+          Свыше 190 народов живут на просторах России — и у каждого свой язык,
+          свои песни и праздники. Но всех нас объединяют общие ценности: уважение
+          к родной культуре, крепкая семья, честный труд и готовность прийти
+          на помощь. Эта страница — о том, что делает нас великой страной.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#tradicii">Начать путешествие</a>
+          <a class="btn btn--ghost" href="#viktorina">Проверить себя</a>
+        </div>
+        <ul class="hero__stats">
+          <li class="hero__stat"><b>190+</b><span>народов и национальностей</span></li>
+          <li class="hero__stat"><b>100+</b><span>языков и диалектов</span></li>
+          <li class="hero__stat"><b>8 июля</b><span>День семьи, любви и верности</span></li>
+          <li class="hero__stat"><b>12 апреля</b><span>День космонавтики</span></li>
+        </ul>
+      </div>
+      <div class="hero__ornament" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="tradicii">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Традиции народов России</h2>
+          <p class="section-lead">
+            Праздники передаются из поколения в поколение и рассказывают о главном:
+            о хлебе, земле, семье и радости жизни. Вот лишь несколько из них.
+          </p>
+        </div>
+        <ul class="cards">
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-maslenica.jpg" alt="Масленичные гулянья с чучелом зимы" loading="lazy" decoding="async">
+            <h3 class="card__title">Масленица</h3>
+            <p class="card__text">
+              Проводы зимы встречают с песнями и блинами — круглыми и горячими,
+              как весеннее солнце. В воскресенье просят друг у друга прощения,
+              чтобы войти в новый период жизни с лёгким сердцем.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-sabantuy.jpg" alt="Сабантуй: народные состязания на майдане" loading="lazy" decoding="async">
+            <h3 class="card__title">Сабантуй</h3>
+            <p class="card__text">
+              «Праздник сохи» у татар и башкир: весной, завершив посевную,
+              люди сходятся на майдан — борются, бегают наперегонки,
+              лазят на столб за призами. Сабантуй ждут всем аулом весь год.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-navruz.jpg" alt="Праздничный стол на Навруз" loading="lazy" decoding="async">
+            <h3 class="card__title">Навруз</h3>
+            <p class="card__text">
+              Праздник весеннего равноденствия отмечают народы Кавказа,
+              Поволжья и многих стран Востока. Накрывают праздничный
+              дастархан, проращивают зерно — символ нового урожая.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-ysyakh.jpg" alt="Торжественное открытие праздника Ысыах" loading="lazy" decoding="async">
+            <h3 class="card__title">Ысыах</h3>
+            <p class="card__text">
+              Летний праздник народа саха: встречают солнце и тёплое время,
+              угощают кумысом, звучат алгыс — песни-благопожелания.
+              Ысыах означает начало нового, обильного года.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-surharban.jpg" alt="Состязания в честь Сурхарбана" loading="lazy" decoding="async">
+            <h3 class="card__title">Сурхарбан</h3>
+            <p class="card__text">
+              Летний праздник бурят: состязания в стрельбе из лука, борьбе
+              и конных скачках. Так испокон веков проверяли ловкость и силу
+              защитников родной земли.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-shagaal.jpg" alt="Калмыцкий праздник Цаган Сар (Шагаал)" loading="lazy" decoding="async">
+            <h3 class="card__title">Шагаал</h3>
+            <p class="card__text">
+              Новый год калмыков: хозяйки пекут праздничные печенья-боорцоги,
+              а первыми в этот день поздравляют самых старших в роду,
+              желая им многолетия и здоровья.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="semya">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Семейные ценности</h2>
+          <p class="section-lead">
+            Семья — первая маленькая родина человека: именно здесь мы получаем
+            язык, привычки и первые представления о доброте и честности.
+          </p>
+        </div>
+        <div class="splits">
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-pochtenie.jpg" alt="Бабушка с внучкой" loading="lazy" decoding="async">
+            <h3 class="split__title">Уважение к старшим</h3>
+            <p class="split__text">
+              Во всех культурах России старшие — хранители памяти: бабушки
+              рассказывают сказки, дедушки учат ремеслу. А молодые почитают
+              их слово и передают семейные истории дальше.
+            </p>
+          </article>
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-dom.jpg" alt="Юрты в степи — жилища кочевых народов" loading="lazy" decoding="async">
+            <h3 class="split__title">Дом — семейный очаг</h3>
+            <p class="split__text">
+              Дом собирает род на праздники и в трудные дни. где бы он ни стоял:
+              у северян это чум у тёплого очага, у степняков — юрта с общим
+              дастарханом, у горожан — уютная кухня.
+            </p>
+          </article>
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-lyubov.jpg" alt="Скульптура Петра и Февронии Муромских" loading="lazy" decoding="async">
+            <h3 class="split__title">Любовь и верность</h3>
+            <p class="split__text">
+              8 июля Россия празднует День семьи, любви и верности —
+              в память о святых Петре и Февронии Муромских, чья преданность
+              друг другу стала для многих примером на века.
+            </p>
+          </article>
+        </div>
+        <blockquote class="quote reveal">
+          «Семья — это маленькая родина: откуда бы человек ни был, его первые
+          представления о доброте, честности и красоте родились именно здесь».
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section" id="professii">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Профессии великой страны</h2>
+          <p class="section-lead">
+            Страна держится на талантах: за каждым ремонтом, открытием и урожаем
+            стоят трудолюбивые руки. Познакомьтесь с некоторыми профессиями.
+          </p>
+        </div>
+        <ul class="cards">
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-vrach.jpg" alt="Врач осматривает ребёнка в кабинете" loading="lazy" decoding="async">
+            <h3 class="card__title">Врач</h3>
+            <p class="card__text">
+              Осматривает, ставит диагноз, спасает жизнь. Работа врача не знает
+              выходных: днём — приём в поликлинике, ночью — дежурство у операционной.
+              Едва ли есть профессия почётнее.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-uchitel.jpg" alt="Ученики на уроке в классе" loading="lazy" decoding="async">
+            <h3 class="card__title">Учитель</h3>
+            <p class="card__text">Ведёт детей в мир знаний: проводит первые уроки письма, учит понимать
+              задачи и жить в дружбе с классом, где учатся ребята разных
+              национальностей. Учитель — центр школьной жизни.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-stroitel.jpg" alt="Строители на площадке жилого дома" loading="lazy" decoding="async">
+            <h3 class="card__title">Строитель</h3>
+            <p class="card__text">
+              Возводит школы, мосты и уютные дома. Строители часто трудятся
+              в бригадах, собранных из мастеров разных народов, — а кладут
+              кирпич одинаково ровно и аккуратно.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-agronom.jpg" alt="Пшеничное поле на закате" loading="lazy" decoding="async">
+            <h3 class="card__title">Агроном</h3>
+            <p class="card__text">
+              Растит урожай: выбирает семена, ухаживает за полями, изучает
+              погоду и почву. Главная его учителя — терпение и наблюдательность:
+              от них зависит, накормлена ли страна.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-pozarnyj.jpg" alt="Пожарный тушит возгорание из шланга" loading="lazy" decoding="async">
+            <h3 class="card__title">Пожарный-спасатель</h3>
+            <p class="card__text">
+              Идёт навстречу опасности: тушит пожары, достаёт людей из-под
+              обломков, устраняет последствия наводнений. Профессия героя —
+              будни без пауз и выходных.
+            </p>
+          </li>
+          <li class="card card--media reveal">
+            <img class="card__photo" src="img/photo-mashinist.jpg" alt="Машинист в кабине поезда" loading="lazy" decoding="async">
+            <h3 class="card__title">Машинист</h3>
+            <p class="card__text">
+              Ведёт поезд по маршруту: от пригородной электрички до скорого
+              состава на дальнем маршруте. За плечами машиниста — тысячи
+              безопасных километров и миллионы пассажиров, добравшихся вовремя.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--tinted" id="podvig">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2 class="section-title">Подвиг</h2>
+          <p class="section-lead">
+            Подвиг — это не только хроника военных лет. Он случается каждый день:
+            там, где человек забывает о себе ради другого.
+          </p>
+        </div>
+        <div class="splits splits--wide">
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-zashchitniki.jpg" alt="Шествие «Бессмертного полка»" loading="lazy" decoding="async">
+            <h3 class="split__title">Защитники Отечества</h3>
+            <p class="split__text">
+              9 мая вся страна вспоминает тех, кто защитил Родину в годы
+              Великой Отечественной войны. По улицам городов проходит
+              «Бессмертный полк» — с портретами солдат, которым мы обязаны мирной жизнью.
+            </p>
+          </article>
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-kosmos.jpg" alt="Юрий Гагарин, 1961 год" loading="lazy" decoding="async">
+            <h3 class="split__title">Первыми к звёздам</h3>
+            <p class="split__text">
+              12 апреля 1961 года Юрий Гагарин стал первым человеком в космосе.
+              За его 108 минутами полёта стоял труд тысяч инженеров, конструкторов
+              и испытателей — будничный героизм научных команд.
+            </p>
+          </article>
+          <article class="split split--media reveal">
+            <img class="split__photo" src="img/photo-bytovye.jpg" alt="Скульптура: пожарный спасает ребёнка" loading="lazy" decoding="async">
+            <h3 class="split__title">Бытовые герои</h3>
+            <p class="split__text">
+              Пожарный, вынесший ребёнка из огня; донор, отдавший кровь сотням людей;
+              прохожий, нырнувший к утопающему. Такие имена редко попадают
+              в учебники — но именно из них соткана соль великой страны.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="viktorina">
+      <div class="container container--narrow">
+        <div class="section-head reveal">
+          <h2 class="section-title">Викторина «Знаешь ли ты?»</h2>
+          <p class="section-lead">
+            Проверьте, как вы усвоили материал страницы. Шесть вопросов,
+            по одному правильному ответу в каждом.
+          </p>
+        </div>
+        <div class="quiz reveal" id="quiz" aria-live="polite">
+          <noscript>
+            <p class="quiz__noscript">
+              Для работы викторины нужен JavaScript. Включите его в настройках
+              браузера — или просто перечитайте разделы выше, они и так полезны.
+            </p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__col">
+        <p class="site-footer__logo">Люди великой страны</p>
+        <p class="site-footer__text">
+          Информационная страница о традициях народов России, семейных
+          ценностях, профессиях и человеческом подвиге.
+        </p>
+      </div>
+      <nav class="site-footer__col" aria-label="Навигация в подвале">
+        <p class="site-footer__heading">Разделы страницы</p>
+        <ul class="site-footer__list">
+          <li><a href="#tradicii">Традиции</a></li>
+          <li><a href="#semya">Семья</a></li>
+          <li><a href="#professii">Профессии</a></li>
+          <li><a href="#podvig">Подвиг</a></li>
+          <li><a href="#viktorina">Викторина</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>Сделала Фетисова Софья Андреевна · 2026 · Информационная страница о людях великой страны</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

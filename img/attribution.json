@@ -1,0 +1,128 @@
+{
+  "maslenica": {
+    "file": "img/photo-maslenica.jpg",
+    "commons": "File:Maslenitsa festival in velikie luki russia.jpg",
+    "artist": "Bazylevnik0",
+    "license": "CC BY-SA 4.0",
+    "query": "Maslenitsa festival"
+  },
+  "sabantuy": {
+    "file": "img/photo-sabantuy.jpg",
+    "commons": "File:Игра на Сабантуе.jpg",
+    "artist": "Игорь Улитин",
+    "license": "CC BY-SA 4.0",
+    "query": "Sabantuy"
+  },
+  "navruz": {
+    "file": "img/photo-navruz.jpg",
+    "commons": "File:Iranian New Year Festival (Nowruz) Celebration in BSBI.jpg",
+    "artist": "LastElement",
+    "license": "CC BY-SA 4.0",
+    "query": "Nowruz celebration table"
+  },
+  "ysyakh": {
+    "file": "img/photo-ysyakh.jpg",
+    "commons": "File:Opening ceremony of Yhyakh holiday.jpg",
+    "artist": "Dziulita05",
+    "license": "CC BY-SA 4.0",
+    "query": "Ысыах"
+  },
+  "pochtenie": {
+    "file": "img/photo-pochtenie.jpg",
+    "commons": "File:Grandmother and the granddaughter.jpg",
+    "artist": "Vidgestr",
+    "license": "CC BY-SA 4.0",
+    "query": "grandmother and granddaughter Russia"
+  },
+  "dom": {
+    "file": "img/photo-dom.jpg",
+    "commons": "File:Kazakh yurts at night in the Kyzylkum desert, Uzbekistan.jpg",
+    "artist": "Carsten Siegel",
+    "license": "CC BY-SA 4.0",
+    "query": "Kazakh yurt"
+  },
+  "lyubov": {
+    "file": "img/photo-lyubov.jpg",
+    "commons": "File:5944. St. Petersburg. Sculpture Peter and Fevronia.jpg",
+    "artist": "GAlexandrova",
+    "license": "CC BY-SA 4.0",
+    "query": "Peter and Fevronia Murom monument"
+  },
+  "vrach": {
+    "file": "img/photo-vrach.jpg",
+    "commons": "File:Doctor checks a childs health in a medical office during an examination.jpg",
+    "artist": "Shixart1985",
+    "license": "CC BY 2.0",
+    "query": "replacement"
+  },
+  "pozarnyj": {
+    "file": "img/photo-pozarnyj.jpg",
+    "commons": "File:Firefighter, Ashton Bay, March 2017.jpg",
+    "artist": "StevenTerblanche",
+    "license": "CC BY-SA 4.0",
+    "query": "replacement"
+  },
+  "mashinist": {
+    "file": "img/photo-mashinist.jpg",
+    "commons": "File:Pilatus train driver cab.jpg",
+    "artist": "Audriusa",
+    "license": "CC BY-SA 3.0",
+    "query": "train driver locomotive cab"
+  },
+  "zashchitniki": {
+    "file": "img/photo-zashchitniki.jpg",
+    "commons": "File:Immortal regiment. victory Day - panoramio.jpg",
+    "artist": "angelius1979",
+    "license": "CC BY-SA 3.0",
+    "query": "Immortal Regiment Victory Day"
+  },
+  "kosmos": {
+    "file": "img/photo-kosmos.jpg",
+    "commons": "File:Yuri Gagarin (1961) - Restoration.jpg",
+    "artist": "Arto Jousi / /Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma;",
+    "license": "Public domain",
+    "query": "Yuri Gagarin"
+  },
+  "bytovye": {
+    "file": "img/photo-bytovye.jpg",
+    "commons": "File:Rugby Fire Station - Corporation Street, Rugby - Life Saved sculpture (33919708306).jpg",
+    "artist": "Elliott Brown from Birmingham, United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "query": "fire rescue child saved"
+  },
+  "uchitel": {
+    "file": "img/photo-uchitel.jpg",
+    "commons": "File:Children reading in classroom, ca. 1915 - DPLA - 11b2b4aeffab2be680113fd9dd736174.jpg",
+    "artist": "Curtis &amp; Miller",
+    "license": "Public domain",
+    "query": "school children classroom hands"
+  },
+  "stroitel": {
+    "file": "img/photo-stroitel.jpg",
+    "commons": "File:Residential construction workers fall prevention (9253625315).jpg",
+    "artist": "National Institute for Occupational Safety and Health (NIOSH) from USA",
+    "license": "Public domain",
+    "query": "residential construction workers"
+  },
+  "agronom": {
+    "file": "img/photo-agronom.jpg",
+    "commons": "File:Harvested fields at sunset in Pomar de Valdivia, Palencia.jpg",
+    "artist": "Jesús Gómez Fernández",
+    "license": "CC BY 4.0",
+    "query": "combine harvester field golden"
+  },
+  "surharban": {
+    "file": "img/photo-surharban.jpg",
+    "commons": "File:Стрельба из лука на фестивале бурятской культуры «Алтаргана-2012».jpg",
+    "artist": "Аркадий Зарубин",
+    "license": "CC BY-SA 3.0",
+    "query": "Сурхарбан"
+  },
+  "shagaal": {
+    "file": "img/photo-shagaal.jpg",
+    "commons": "File:Tsagaan sar.jpg",
+    "artist": "User:Chinneeb",
+    "license": "CC BY-SA 3.0",
+    "query": "Цаган Сар"
+  }
+}
